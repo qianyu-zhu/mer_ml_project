@@ -1,3 +1,6 @@
 # mer_ml_project
-This is the final project for machine learning. It is about music emotion recognition.
+This is the final project for machine learning, focusing on music emotion recognition. We used self-collected dataset, containing 7193 songs from Spotifys Web API. We aminly employed librosa package to extract spectrum from midi file, and use both traditional models (SVM & random forest) and NN models (CNN, DNN, LSTM), and the experiment result shows the potential of spectrum analysis in music emotion recognition and more generalized tasks.
+
+With the aim of classifying different songs based on the emotions they can inspire, this project trains different machine learning models with different sets of features. We stack traditional models including SVM and random forests, train it with the shallow features provided by Spotifys API, yielding an average precision of 0.76. recall 0.77, f1-score 0.76 for three-class classification task. This comparatively low accuracy can be attributed to the limited size of the dataset and the inherent errors in the labels. In comparison, the more complicated CLDNN model (CNN + LSTM + DNN), achieves an accuracy of 90.56% in binary classification.
+
 Please refer to the paper: https://github.com/qianyu-zhu/mer_ml_project/blob/8fd15441948c85ea7918e74fa0f6845cb2ca5d0c/Music_emotion_recognition.pdf
