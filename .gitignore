@@ -1,0 +1,11 @@
+audio/*
+!audio/.gitkeep
+data_csv/**
+!data_csv/.gitkeep
+playlists/*
+!playlists/.gitkeep
+spectrogram/*
+!spectrogram/.gitkeep
+waveplot/*
+!waveplot/.gitkeep
+**/.DS_Store
